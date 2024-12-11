@@ -9,3 +9,82 @@
 .test {
     color: red !important;
 }
+
+.paragraph {
+    font-size: 16px;
+    line-height: 26px;
+    color: #1F3F68;
+}
+
+.head1 {
+    font-size: 64px;
+    color: #1F3F68;
+}
+
+.head2{
+    font-weight: 500;
+    font-size: 44px;
+    text-align: center;
+}
+
+.head3 {
+    font-size: 36px;
+    text-align: center;
+}
+
+.head4 {
+    font-size: 20px;
+    line-height: 30px;
+    color: #1F3F68;
+}
+
+.input {
+    border: 1px solid #356EAD;
+    box-sizing: border-box;
+    border-radius: 10px;
+    opacity: 0.4;
+}
+
+.button1 {
+    cursor: pointer;
+    background: linear-gradient(to right, rgb(77, 116, 231), rgb(139, 87, 233));
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 34px;
+    font-weight: 500;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 40px;
+    text-align: center;
+}
+/*600 180*/
+
+.breadcrumbs {
+    margin-top: 20px;
+    margin-left:-40px;
+    background: linear-gradient(to top, rgb(59,129,130), rgb(255,255,255));
+}
+
+.breadcrumbs-item {
+    color: rgb(0, 0, 0);
+    position: relative;
+    padding:.9em 2em .9em 2em;
+    text-decoration: none;
+    outline: none;
+  }
+
+  .breadcrumbs-item::after {
+    content: "";
+	height:19px;
+	width:10px;
+    color: rgb(255, 255, 255);
+    border-right-style: solid;
+	border-radius:0px 30px 30px 0px;
+    position: absolute; right: -10px; bottom: 14.4px;
+    box-shadow: 5px 0 5px rgba(0, 0, 0, 0.4); 
+  }
+
+  
+
+
