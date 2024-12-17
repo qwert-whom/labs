@@ -1,18 +1,45 @@
-.container {
-  padding: 0 12px;
+.main-container {
+  display: flex;
+  padding-left: 90px;
 }
 
-@media screen and (min-width: 1024px) {
-  .container {
-    padding: 0 16px;
-  }
-}
-@media screen and (min-width: 1920px) {
-  .container {
-    padding: 0;
-    width: 1600px;
-    margin: auto;
-  }
+.intro-with-form {
+  display: flex;
+  margin-top: 140px;
+  flex: 1 1 45%;
+  flex-direction: column;
 }
 
-/*# sourceMappingURL=container.css.map */
+.intro {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  margin-top: 20px;
+  overflow: hidden;
+  flex: 1;
+}
+
+body {
+  background-color: #F2F4F7;
+  color: #101828;
+}
+
+.main-container h1 {
+  font-size: 36px;
+  line-height: 52px;
+  letter-spacing: 0.33px;
+  gap: 24px;
+  padding-bottom: 40px;
+}
+
+.main-container p{
+  font-size: 15px;
+  line-height: 20px;
+  letter-spacing: -0.24px;
+}
+
+.main-container h1 span{
+  color: #306FF5;
+}
+
+
